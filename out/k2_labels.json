@@ -1,0 +1,259 @@
+[
+ {
+  "task": 538,
+  "tier": "T0",
+  "category": "A",
+  "n_expected": 1,
+  "n_hit": 0,
+  "wanted_entities": [
+   "598"
+  ],
+  "committed_entities": [
+   "597"
+  ],
+  "commit_step": 9,
+  "page_entered_step": 1,
+  "dwell": 8,
+  "n_steps": 12
+ },
+ {
+  "task": 538,
+  "tier": "T3",
+  "category": "A",
+  "n_expected": 1,
+  "n_hit": 0,
+  "wanted_entities": [
+   "598"
+  ],
+  "committed_entities": [
+   "597"
+  ],
+  "commit_step": 11,
+  "page_entered_step": 11,
+  "dwell": 0,
+  "n_steps": 12
+ },
+ {
+  "task": 539,
+  "tier": "T0",
+  "category": "A",
+  "n_expected": 1,
+  "n_hit": 0,
+  "wanted_entities": [
+   "130"
+  ],
+  "committed_entities": [
+   "129"
+  ],
+  "commit_step": 10,
+  "page_entered_step": 1,
+  "dwell": 9,
+  "n_steps": 12
+ },
+ {
+  "task": 539,
+  "tier": "T3",
+  "category": "D",
+  "n_expected": 1,
+  "n_hit": 1,
+  "wanted_entities": [
+   "130"
+  ],
+  "committed_entities": [
+   "130"
+  ],
+  "commit_step": 11,
+  "page_entered_step": 1,
+  "dwell": 10,
+  "n_steps": 12
+ },
+ {
+  "task": 540,
+  "tier": "T0",
+  "category": "D",
+  "n_expected": 1,
+  "n_hit": 1,
+  "wanted_entities": [
+   "602"
+  ],
+  "committed_entities": [
+   "602"
+  ],
+  "commit_step": 10,
+  "page_entered_step": 1,
+  "dwell": 9,
+  "n_steps": 12
+ },
+ {
+  "task": 541,
+  "tier": "T0",
+  "category": "D",
+  "n_expected": 1,
+  "n_hit": 1,
+  "wanted_entities": [
+   "249"
+  ],
+  "committed_entities": [
+   "249"
+  ],
+  "commit_step": 9,
+  "page_entered_step": 1,
+  "dwell": 8,
+  "n_steps": 12
+ },
+ {
+  "task": 542,
+  "tier": "T0",
+  "category": "D",
+  "n_expected": 1,
+  "n_hit": 1,
+  "wanted_entities": [
+   "600"
+  ],
+  "committed_entities": [
+   "600"
+  ],
+  "commit_step": 7,
+  "page_entered_step": 1,
+  "dwell": 6,
+  "n_steps": 12
+ },
+ {
+  "task": 542,
+  "tier": "T3",
+  "category": "D",
+  "n_expected": 1,
+  "n_hit": 1,
+  "wanted_entities": [
+   "600"
+  ],
+  "committed_entities": [
+   "600"
+  ],
+  "commit_step": 9,
+  "page_entered_step": 2,
+  "dwell": 7,
+  "n_steps": 11
+ },
+ {
+  "task": 773,
+  "tier": "T3",
+  "category": "A",
+  "n_expected": 2,
+  "n_hit": 1,
+  "wanted_entities": [
+   "351",
+   "353"
+  ],
+  "committed_entities": [
+   "353"
+  ],
+  "commit_step": 10,
+  "page_entered_step": 6,
+  "dwell": 4,
+  "n_steps": 12
+ },
+ {
+  "task": 774,
+  "tier": "T0",
+  "category": "A",
+  "n_expected": 3,
+  "n_hit": 1,
+  "wanted_entities": [
+   "349",
+   "351",
+   "353"
+  ],
+  "committed_entities": [
+   "353"
+  ],
+  "commit_step": 11,
+  "page_entered_step": 1,
+  "dwell": 10,
+  "n_steps": 12
+ },
+ {
+  "task": 774,
+  "tier": "T3",
+  "category": "A",
+  "n_expected": 3,
+  "n_hit": 1,
+  "wanted_entities": [
+   "349",
+   "351",
+   "353"
+  ],
+  "committed_entities": [
+   "353"
+  ],
+  "commit_step": 11,
+  "page_entered_step": 11,
+  "dwell": 0,
+  "n_steps": 12
+ },
+ {
+  "task": 775,
+  "tier": "T3",
+  "category": "B",
+  "n_expected": 1,
+  "n_hit": 0,
+  "wanted_entities": [
+   "51"
+  ],
+  "committed_entities": [],
+  "commit_step": 7,
+  "page_entered_step": 1,
+  "dwell": 6,
+  "n_steps": 12
+ },
+ {
+  "task": 776,
+  "tier": "T3",
+  "category": "B",
+  "n_expected": 2,
+  "n_hit": 0,
+  "wanted_entities": [
+   "109",
+   "93"
+  ],
+  "committed_entities": [],
+  "commit_step": 8,
+  "page_entered_step": 4,
+  "dwell": 4,
+  "n_steps": 10
+ },
+ {
+  "task": 497,
+  "tier": "T0",
+  "category": "D",
+  "n_expected": 1,
+  "n_hit": 1,
+  "wanted_entities": [
+   "307"
+  ],
+  "committed_entities": [
+   "307"
+  ],
+  "commit_step": 10,
+  "page_entered_step": 10,
+  "dwell": 0,
+  "n_steps": 12
+ },
+ {
+  "task": 498,
+  "tier": "T0",
+  "category": "D",
+  "n_expected": 1,
+  "n_hit": 1,
+  "wanted_entities": [
+   "306"
+  ],
+  "committed_entities": [
+   "306"
+  ],
+  "commit_step": 11,
+  "page_entered_step": 10,
+  "dwell": 1,
+  "n_steps": 12
+ }
+]

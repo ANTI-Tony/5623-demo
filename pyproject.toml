@@ -1,0 +1,16 @@
+# Makes `cawebagent` importable from a clean clone: `pip install -e .`
+# Without this, 18 of the analysis scripts die on ModuleNotFoundError even inside
+# the pinned environment, because they are run from the repository root and rely
+# on it happening to be on sys.path.
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cawebagent"
+version = "0.1.0"
+description = "Instrument for measuring what a web agent changes and what of it can be undone"
+requires-python = ">=3.12"
+
+[tool.setuptools]
+packages = ["cawebagent", "cawebagent.agent", "cawebagent.lm", "cawebagent.trace"]

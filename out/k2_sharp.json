@@ -1,0 +1,259 @@
+[
+ {
+  "task": 538,
+  "tier": "T0",
+  "n_exp": 1,
+  "n_hit": 0,
+  "commit_i": 9,
+  "entered_i": 1,
+  "gap": 8,
+  "want": [
+   "598"
+  ],
+  "got": [
+   "597"
+  ],
+  "page_entity": "299",
+  "n_steps": 12
+ },
+ {
+  "task": 538,
+  "tier": "T3",
+  "n_exp": 1,
+  "n_hit": 0,
+  "commit_i": 11,
+  "entered_i": 11,
+  "gap": 0,
+  "want": [
+   "598"
+  ],
+  "got": [
+   "597"
+  ],
+  "page_entity": "598",
+  "n_steps": 12
+ },
+ {
+  "task": 539,
+  "tier": "T0",
+  "n_exp": 1,
+  "n_hit": 0,
+  "commit_i": 10,
+  "entered_i": 1,
+  "gap": 9,
+  "want": [
+   "130"
+  ],
+  "got": [
+   "129"
+  ],
+  "page_entity": "65",
+  "n_steps": 12
+ },
+ {
+  "task": 539,
+  "tier": "T3",
+  "n_exp": 1,
+  "n_hit": 1,
+  "commit_i": 11,
+  "entered_i": 1,
+  "gap": 10,
+  "want": [
+   "130"
+  ],
+  "got": [
+   "130"
+  ],
+  "page_entity": "65",
+  "n_steps": 12
+ },
+ {
+  "task": 540,
+  "tier": "T0",
+  "n_exp": 1,
+  "n_hit": 1,
+  "commit_i": 10,
+  "entered_i": 1,
+  "gap": 9,
+  "want": [
+   "602"
+  ],
+  "got": [
+   "602"
+  ],
+  "page_entity": "301",
+  "n_steps": 12
+ },
+ {
+  "task": 541,
+  "tier": "T0",
+  "n_exp": 1,
+  "n_hit": 1,
+  "commit_i": 9,
+  "entered_i": 1,
+  "gap": 8,
+  "want": [
+   "249"
+  ],
+  "got": [
+   "249"
+  ],
+  "page_entity": "125",
+  "n_steps": 12
+ },
+ {
+  "task": 542,
+  "tier": "T0",
+  "n_exp": 1,
+  "n_hit": 1,
+  "commit_i": 7,
+  "entered_i": 1,
+  "gap": 6,
+  "want": [
+   "600"
+  ],
+  "got": [
+   "600"
+  ],
+  "page_entity": "300",
+  "n_steps": 12
+ },
+ {
+  "task": 542,
+  "tier": "T3",
+  "n_exp": 1,
+  "n_hit": 1,
+  "commit_i": 9,
+  "entered_i": 2,
+  "gap": 7,
+  "want": [
+   "600"
+  ],
+  "got": [
+   "600"
+  ],
+  "page_entity": "600",
+  "n_steps": 11
+ },
+ {
+  "task": 773,
+  "tier": "T3",
+  "n_exp": 2,
+  "n_hit": 1,
+  "commit_i": 10,
+  "entered_i": 6,
+  "gap": 4,
+  "want": [
+   "351",
+   "353"
+  ],
+  "got": [
+   "353"
+  ],
+  "page_entity": null,
+  "n_steps": 12
+ },
+ {
+  "task": 774,
+  "tier": "T0",
+  "n_exp": 3,
+  "n_hit": 1,
+  "commit_i": 11,
+  "entered_i": 1,
+  "gap": 10,
+  "want": [
+   "349",
+   "351",
+   "353"
+  ],
+  "got": [
+   "353"
+  ],
+  "page_entity": null,
+  "n_steps": 12
+ },
+ {
+  "task": 774,
+  "tier": "T3",
+  "n_exp": 3,
+  "n_hit": 1,
+  "commit_i": 11,
+  "entered_i": 11,
+  "gap": 0,
+  "want": [
+   "349",
+   "351",
+   "353"
+  ],
+  "got": [
+   "353"
+  ],
+  "page_entity": "352",
+  "n_steps": 12
+ },
+ {
+  "task": 775,
+  "tier": "T3",
+  "n_exp": 1,
+  "n_hit": 0,
+  "commit_i": 7,
+  "entered_i": 1,
+  "gap": 6,
+  "want": [
+   "51"
+  ],
+  "got": [],
+  "page_entity": null,
+  "n_steps": 12
+ },
+ {
+  "task": 776,
+  "tier": "T3",
+  "n_exp": 2,
+  "n_hit": 0,
+  "commit_i": 8,
+  "entered_i": 4,
+  "gap": 4,
+  "want": [
+   "109",
+   "93"
+  ],
+  "got": [],
+  "page_entity": null,
+  "n_steps": 10
+ },
+ {
+  "task": 497,
+  "tier": "T0",
+  "n_exp": 1,
+  "n_hit": 1,
+  "commit_i": 10,
+  "entered_i": 10,
+  "gap": 0,
+  "want": [
+   "307"
+  ],
+  "got": [
+   "307"
+  ],
+  "page_entity": null,
+  "n_steps": 12
+ },
+ {
+  "task": 498,
+  "tier": "T0",
+  "n_exp": 1,
+  "n_hit": 1,
+  "commit_i": 11,
+  "entered_i": 10,
+  "gap": 1,
+  "want": [
+   "306"
+  ],
+  "got": [
+   "306"
+  ],
+  "page_entity": null,
+  "n_steps": 12
+ }
+]

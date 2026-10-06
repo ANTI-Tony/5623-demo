@@ -1,0 +1,46 @@
+{
+ "pending": {
+  "status": "Pending",
+  "buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "inverse": []
+ },
+ "after_shipment": {
+  "status": "Processing",
+  "buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "inverse": []
+ },
+ "after_cancel_attempt": {
+  "status": "Canceled",
+  "buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "inverse": []
+ },
+ "withdrawn": [
+  "Ship"
+ ]
+}

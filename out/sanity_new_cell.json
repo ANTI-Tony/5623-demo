@@ -1,0 +1,61 @@
+{
+ "cell": "Hold x Processing-shipped",
+ "snapshots": {
+  "s0_pending": {
+   "status": "Pending",
+   "buttons": [
+    "Cancel",
+    "Edit",
+    "Hold",
+    "Invoice",
+    "Login as Customer",
+    "Reorder",
+    "Send Email",
+    "Ship",
+    "Submit Comment",
+    "\\ue626 Back"
+   ]
+  },
+  "s1_shipped": {
+   "status": "Processing",
+   "buttons": [
+    "Cancel",
+    "Edit",
+    "Hold",
+    "Invoice",
+    "Login as Customer",
+    "Reorder",
+    "Send Email",
+    "Submit Comment",
+    "\\ue626 Back"
+   ]
+  },
+  "s2_after_hold": {
+   "status": "On Hold",
+   "buttons": [
+    "Login as Customer",
+    "Send Email",
+    "Submit Comment",
+    "Unhold",
+    "\\ue626 Back"
+   ]
+  },
+  "s3_after_unhold": {
+   "status": "Processing",
+   "buttons": [
+    "Cancel",
+    "Edit",
+    "Hold",
+    "Invoice",
+    "Login as Customer",
+    "Reorder",
+    "Send Email",
+    "Submit Comment",
+    "\\ue626 Back"
+   ]
+  }
+ },
+ "restored": true,
+ "reset_s": 174.9,
+ "episode_s": 115.1
+}

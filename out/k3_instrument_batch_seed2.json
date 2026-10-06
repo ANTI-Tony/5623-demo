@@ -1,0 +1,76 @@
+{
+ "n_steps": 387,
+ "n_episodes": 40,
+ "K3_T3": {
+  "steps": 190,
+  "commit_steps": 20,
+  "pct_steps": 10.526315789473685,
+  "pct_outtok": 4.233024050223884,
+  "med_commit": 6.5,
+  "med_non": 63.0,
+  "mean_commit": 91.7,
+  "mean_non": 244.0705882352941,
+  "perm_diff": -152.37058823529412,
+  "perm_p": 0.08449155084491551
+ },
+ "K3_T0": {
+  "steps": 197,
+  "commit_steps": 18,
+  "pct_steps": 9.137055837563452,
+  "pct_outtok": 2.2494261667941853,
+  "med_commit": 6.0,
+  "med_non": 32,
+  "mean_commit": 8.166666666666666,
+  "mean_non": 35.687150837988824,
+  "perm_diff": -27.52048417132216,
+  "perm_p": 9.999000099990002e-05
+ },
+ "K3_ALL": {
+  "steps": 387,
+  "commit_steps": 38,
+  "pct_steps": 9.819121447028424,
+  "pct_outtok": 3.9730450652814824,
+  "med_commit": 6.0,
+  "med_non": 43,
+  "mean_commit": 52.13157894736842,
+  "mean_non": 137.1919770773639,
+  "perm_diff": -85.06039812999549,
+  "perm_p": 0.023797620237976203
+ },
+ "K3ctl_T3_click": {
+  "n_commit": 20,
+  "n_non": 75,
+  "med_commit": 6.5,
+  "med_non": 56,
+  "perm_diff": -135.91333333333336,
+  "perm_p": 0.043695630436956304
+ },
+ "K3ctl_T0_click": {
+  "n_commit": 18,
+  "n_non": 82,
+  "med_commit": 6.0,
+  "med_non": 33.0,
+  "perm_diff": -22.991869918699187,
+  "perm_p": 0.00039996000399960006
+ },
+ "K4_in_tok (a11y tree size)": {
+  "rho": -0.013289372551197168,
+  "p": 0.8201179882011799
+ },
+ "K4_out_tok (revealed difficulty)": {
+  "rho": -0.3156787999516484,
+  "p": 9.999000099990002e-05
+ },
+ "K4_step index (progress)": {
+  "rho": 0.16120212055015762,
+  "p": 0.045995400459954004
+ },
+ "K4_last_action_error (retry)": {
+  "rho": 0.34127809082292054,
+  "p": 9.999000099990002e-05
+ },
+ "K4_tier_vs_outtok": {
+  "rho": -0.3156787999516484,
+  "p": 9.999000099990002e-05
+ }
+}

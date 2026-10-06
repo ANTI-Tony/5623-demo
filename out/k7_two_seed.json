@@ -1,0 +1,38 @@
+{
+ "seed1": {
+  "n": 20,
+  "succ_T0": 7,
+  "succ_T3": 12,
+  "pp": 25.0,
+  "b": 5,
+  "c": 0,
+  "p": 0.0625,
+  "coll_T0": 3,
+  "coll_T3": 3
+ },
+ "seed2": {
+  "n": 20,
+  "succ_T0": 8,
+  "succ_T3": 9,
+  "pp": 5.0,
+  "b": 2,
+  "c": 1,
+  "p": 1.0,
+  "coll_T0": 4,
+  "coll_T3": 4
+ },
+ "pooled": {
+  "n_pairs": 40,
+  "b": 7,
+  "c": 1,
+  "p": 0.0703125,
+  "pp": 15.0
+ },
+ "stability": {
+  "tasks": 20,
+  "agree_T3": 17,
+  "agree_T0": 15,
+  "flip_rate_T3": 15.0,
+  "flip_rate_T0": 25.0
+ }
+}

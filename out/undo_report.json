@@ -1,0 +1,74 @@
+[
+ {
+  "cls": "order_hold",
+  "status": [
+   "Pending",
+   "On Hold"
+  ],
+  "inverse": [
+   "Unhold"
+  ],
+  "gained": [
+   "Unhold"
+  ],
+  "lost": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Reorder",
+   "Ship"
+  ],
+  "n_page_lines_changed": 532,
+  "evidence": "CONTROL",
+  "irreversible": false
+ },
+ {
+  "cls": "order_cancel",
+  "status": [
+   "Pending",
+   "Canceled"
+  ],
+  "inverse": [],
+  "gained": [],
+  "lost": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Send Email",
+   "Ship"
+  ],
+  "n_page_lines_changed": 386,
+  "evidence": "STRONG",
+  "irreversible": true
+ },
+ {
+  "cls": "shipment_create",
+  "status": [
+   "Pending",
+   "Processing"
+  ],
+  "inverse": [],
+  "gained": [],
+  "lost": [
+   "Ship"
+  ],
+  "n_page_lines_changed": 472,
+  "evidence": "STRONG",
+  "irreversible": true
+ },
+ {
+  "cls": "review_delete",
+  "status": [
+   null,
+   null
+  ],
+  "inverse": [],
+  "gained": [],
+  "lost": [],
+  "n_page_lines_changed": 60,
+  "evidence": "WEAK",
+  "irreversible": true
+ }
+]

@@ -1,0 +1,222 @@
+[
+ {
+  "task_id": 768,
+  "tpl": 241,
+  "max_tier": 1,
+  "n_mut": 1,
+  "n_eval": 2,
+  "classes": [
+   "product_edit"
+  ],
+  "intent": "5 blue Cronus yoga pants with size 33 arrived, update the stock"
+ },
+ {
+  "task_id": 453,
+  "tpl": 242,
+  "max_tier": 1,
+  "n_mut": 1,
+  "n_eval": 2,
+  "classes": [
+   "product_edit"
+  ],
+  "intent": "Disable Teton pullover hoodie from the site, they are facing some qual"
+ },
+ {
+  "task_id": 454,
+  "tpl": 242,
+  "max_tier": 1,
+  "n_mut": 1,
+  "n_eval": 2,
+  "classes": [
+   "product_edit"
+  ],
+  "intent": "Disable Ryker Tee Crew Neck from the site, they are facing some qualit"
+ },
+ {
+  "task_id": 455,
+  "tpl": 242,
+  "max_tier": 1,
+  "n_mut": 1,
+  "n_eval": 2,
+  "classes": [
+   "product_edit"
+  ],
+  "intent": "Disable Helios Endurance Tank from the site, they are facing some qual"
+ },
+ {
+  "task_id": 456,
+  "tpl": 242,
+  "max_tier": 1,
+  "n_mut": 1,
+  "n_eval": 2,
+  "classes": [
+   "product_edit"
+  ],
+  "intent": "Disable Cora Pant from the site, they are facing some quality issues."
+ },
+ {
+  "task_id": 457,
+  "tpl": 242,
+  "max_tier": 1,
+  "n_mut": 1,
+  "n_eval": 2,
+  "classes": [
+   "product_edit"
+  ],
+  "intent": "Disable Karmen yoga pants from the site, they are facing some quality "
+ },
+ {
+  "task_id": 458,
+  "tpl": 247,
+  "max_tier": 1,
+  "n_mut": 1,
+  "n_eval": 2,
+  "classes": [
+   "product_edit"
+  ],
+  "intent": "Reduce the price of the product on the current page by $5"
+ },
+ {
+  "task_id": 459,
+  "tpl": 247,
+  "max_tier": 1,
+  "n_mut": 1,
+  "n_eval": 2,
+  "classes": [
+   "product_edit"
+  ],
+  "intent": "Reduce the price of the product on the current page by 10%"
+ },
+ {
+  "task_id": 460,
+  "tpl": 247,
+  "max_tier": 1,
+  "n_mut": 1,
+  "n_eval": 2,
+  "classes": [
+   "product_edit"
+  ],
+  "intent": "Reduce the price of the product on the current page by 15%"
+ },
+ {
+  "task_id": 461,
+  "tpl": 247,
+  "max_tier": 1,
+  "n_mut": 1,
+  "n_eval": 2,
+  "classes": [
+   "product_edit"
+  ],
+  "intent": "Increase the price of the product on the current page by $11.5"
+ },
+ {
+  "task_id": 462,
+  "tpl": 247,
+  "max_tier": 1,
+  "n_mut": 1,
+  "n_eval": 2,
+  "classes": [
+   "product_edit"
+  ],
+  "intent": "Increase the price of the product on the current page by 10%"
+ },
+ {
+  "task_id": 464,
+  "tpl": 251,
+  "max_tier": 1,
+  "n_mut": 1,
+  "n_eval": 2,
+  "classes": [
+   "product_edit"
+  ],
+  "intent": "Update the product description of Antonia Racer Tank to \"{count} custo"
+ },
+ {
+  "task_id": 543,
+  "tpl": 251,
+  "max_tier": 1,
+  "n_mut": 1,
+  "n_eval": 2,
+  "classes": [
+   "product_edit"
+  ],
+  "intent": "Update the product description of Bella Tank to \"{count} customer(s) l"
+ },
+ {
+  "task_id": 544,
+  "tpl": 251,
+  "max_tier": 1,
+  "n_mut": 1,
+  "n_eval": 2,
+  "classes": [
+   "product_edit"
+  ],
+  "intent": "Update the product description of Selene Yoga Hoodie to \"{count} custo"
+ },
+ {
+  "task_id": 545,
+  "tpl": 251,
+  "max_tier": 1,
+  "n_mut": 1,
+  "n_eval": 2,
+  "classes": [
+   "product_edit"
+  ],
+  "intent": "Update the product description of Radiant Tee to \"{count} customer(s) "
+ },
+ {
+  "task_id": 546,
+  "tpl": 251,
+  "max_tier": 1,
+  "n_mut": 1,
+  "n_eval": 2,
+  "classes": [
+   "product_edit"
+  ],
+  "intent": "Update the product description of Lucia Cross-Fit Bra to \"{count} cust"
+ },
+ {
+  "task_id": 551,
+  "tpl": 252,
+  "max_tier": 1,
+  "n_mut": 1,
+  "n_eval": 2,
+  "classes": [
+   "product_edit"
+  ],
+  "intent": "Add new size 30 and 31 to all color variants of Diana Tights"
+ },
+ {
+  "task_id": 694,
+  "tpl": 256,
+  "max_tier": 1,
+  "n_mut": 1,
+  "n_eval": 2,
+  "classes": [
+   "product_edit"
+  ],
+  "intent": "Add a simple product named \"Energy-Bulk Women Shirt\" with 50 in stock,"
+ },
+ {
+  "task_id": 695,
+  "tpl": 256,
+  "max_tier": 1,
+  "n_mut": 1,
+  "n_eval": 2,
+  "classes": [
+   "product_edit"
+  ],
+  "intent": "Add a simple product named \"Energy-Bulk Man Yoga Pant\" with 50 in stoc"
+ },
+ {
+  "task_id": 696,
+  "tpl": 256,
+  "max_tier": 1,
+  "n_mut": 1,
+  "n_eval": 2,
+  "classes": [
+   "product_edit"
+  ],
+  "intent": "Add a simple product named \"FancyBoy Man Causal Jeans\" with 42 in stoc"
+ }
+]

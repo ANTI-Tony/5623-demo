@@ -1,0 +1,16 @@
+{
+ "n_failed": 15,
+ "n_success": 19,
+ "median_gap_failed": 6,
+ "median_gap_success": 1,
+ "perm_p": 0.018049097545122742,
+ "prop_failed": [
+  12,
+  15
+ ],
+ "prop_success": [
+  19,
+  19
+ ],
+ "fisher_p": 0.07603609625668449
+}

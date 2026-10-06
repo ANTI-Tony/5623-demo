@@ -1,0 +1,38 @@
+[
+ {
+  "site": "gitlab",
+  "events": 219,
+  "endpoints": 74,
+  "top3": 23.28767123287671,
+  "norm_entropy": 0.8914337504254896,
+  "id_bearing_endpoints": 7,
+  "id_bearing_share": 19.17808219178082
+ },
+ {
+  "site": "reddit",
+  "events": 198,
+  "endpoints": 44,
+  "top3": 56.56565656565657,
+  "norm_entropy": 0.7114680995331181,
+  "id_bearing_endpoints": 8,
+  "id_bearing_share": 34.343434343434346
+ },
+ {
+  "site": "shopping_admin",
+  "events": 100,
+  "endpoints": 14,
+  "top3": 51.0,
+  "norm_entropy": 0.8933921044807492,
+  "id_bearing_endpoints": 11,
+  "id_bearing_share": 90.0
+ },
+ {
+  "site": "shopping",
+  "events": 67,
+  "endpoints": 9,
+  "top3": 56.71641791044776,
+  "norm_entropy": 0.9171208834619401,
+  "id_bearing_endpoints": 3,
+  "id_bearing_share": 37.3134328358209
+ }
+]

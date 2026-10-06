@@ -1,0 +1,38 @@
+{
+ "original_tasks": 812,
+ "verified_tasks": 812,
+ "original": {
+  "eval_types": {
+   "string_match": 335,
+   "url_match": 205,
+   "program_html": 411
+  },
+  "assertion_vocabulary": {
+   "reference_answers.exact_match": 45,
+   "reference_answers.must_include": 176,
+   "reference_answers.fuzzy_match": 118,
+   "program_html.must_include": 463,
+   "program_html.exact_match": 188
+  },
+  "program_html_entries": 651,
+  "negative_terms": {},
+  "network_evaluators": 0
+ },
+ "verified": {
+  "network_evaluators": 663,
+  "methods": {
+   "GET": 143,
+   "POST": 510,
+   "PUT": 10
+  },
+  "negative_assertions": 8,
+  "pct_negative": 1.2066365007541477,
+  "negative_targets": [
+   [
+    "__SHOPPING__/contact/index/post",
+    8
+   ]
+  ],
+  "distinct_negative_endpoints": 1
+ }
+}

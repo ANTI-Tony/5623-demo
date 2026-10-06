@@ -1,0 +1,22 @@
+{
+ "obs_size_clicks": {
+  "rho": -0.0116,
+  "p": 0.858,
+  "n": 181
+ },
+ "step_index_clicks": {
+  "rho": 0.1887,
+  "p": 0.094,
+  "n": 181
+ },
+ "prev_error_clicks": {
+  "rho": -0.2144,
+  "p": 0.0024,
+  "n": 181
+ },
+ "prev_error_all_t3": {
+  "rho": -0.1611,
+  "p": 0.0015,
+  "n": 373
+ }
+}

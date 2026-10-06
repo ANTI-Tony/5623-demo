@@ -1,0 +1,3504 @@
+[
+ {
+  "verb": "hold",
+  "state": "pending",
+  "order": 301,
+  "recipe": [],
+  "secs": 35.5,
+  "steps": 5,
+  "baseline_status": "Pending",
+  "pre_status": "Pending",
+  "post_status": "On Hold",
+  "undo_status": "Pending",
+  "pre_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/301/",
+  "gate_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [
+   "Unhold"
+  ],
+  "inverse_taken": "Unhold",
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Hold": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/301/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/301/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/301/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/301/"
+  },
+  "residue_buttons": [],
+  "offered": true,
+  "gained": [
+   "Unhold"
+  ],
+  "lost": [
+   "Cancel",
+   "Hold",
+   "Invoice",
+   "Reorder",
+   "Ship"
+  ],
+  "executed": true,
+  "outcome": "MEASURED",
+  "inverse_offered": true,
+  "inverse_clicks_tried": 1,
+  "inverse_committed": true,
+  "inverse_commit_control": null,
+  "reversible": true,
+  "note": "restored via Unhold",
+  "cell_role": "POSITIVE_CONTROL",
+  "batch": 1,
+  "batch_ok": true
+ },
+ {
+  "verb": "hold",
+  "state": "pending",
+  "order": 302,
+  "recipe": [],
+  "secs": 20.0,
+  "steps": 5,
+  "baseline_status": "Pending",
+  "pre_status": "Pending",
+  "post_status": "On Hold",
+  "undo_status": "Pending",
+  "pre_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+  "gate_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [
+   "Unhold"
+  ],
+  "inverse_taken": "Unhold",
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Hold": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/302/"
+  },
+  "residue_buttons": [],
+  "offered": true,
+  "gained": [
+   "Unhold"
+  ],
+  "lost": [
+   "Cancel",
+   "Hold",
+   "Invoice",
+   "Reorder",
+   "Ship"
+  ],
+  "executed": true,
+  "outcome": "MEASURED",
+  "inverse_offered": true,
+  "inverse_clicks_tried": 1,
+  "inverse_committed": true,
+  "inverse_commit_control": null,
+  "reversible": true,
+  "note": "restored via Unhold",
+  "rep": 0,
+  "batch": 1,
+  "batch_ok": true
+ },
+ {
+  "verb": "cancel",
+  "state": "pending",
+  "order": 303,
+  "recipe": [],
+  "secs": 20.3,
+  "steps": 5,
+  "baseline_status": "Pending",
+  "pre_status": "Pending",
+  "post_status": "Canceled",
+  "undo_status": "Canceled",
+  "pre_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/303/",
+  "gate_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "OK",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back",
+   "\\ue62f"
+  ],
+  "gate_warn": [
+   "StaticText 'Are you sure you want to cancel this order?'"
+  ],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Cancel": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/303/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/303/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/303/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/303/"
+  },
+  "residue_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Send Email",
+   "Ship"
+  ],
+  "offered": true,
+  "gained": [],
+  "lost": [
+   "Cancel",
+   "Hold",
+   "Invoice",
+   "Send Email",
+   "Ship"
+  ],
+  "executed": true,
+  "outcome": "MEASURED",
+  "inverse_offered": false,
+  "inverse_clicks_tried": 0,
+  "inverse_committed": false,
+  "inverse_commit_control": null,
+  "reversible": false,
+  "note": "no inverse control was taken",
+  "rep": 0,
+  "batch": 1,
+  "batch_ok": true
+ },
+ {
+  "verb": "ship",
+  "state": "pending",
+  "order": 304,
+  "recipe": [],
+  "secs": 20.2,
+  "steps": 5,
+  "baseline_status": "Pending",
+  "pre_status": "Pending",
+  "post_status": "Processing",
+  "undo_status": "Processing",
+  "pre_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/admin/order_shipment/new/order_id/304/",
+  "gate_buttons": [
+   "Add Tracking Number",
+   "Reset",
+   "Submit Shipment",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Ship": 1,
+   "Submit Shipment": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/304/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/304/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/304/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/304/"
+  },
+  "residue_buttons": [
+   "Ship"
+  ],
+  "offered": true,
+  "gained": [],
+  "lost": [
+   "Ship"
+  ],
+  "executed": true,
+  "outcome": "MEASURED",
+  "inverse_offered": false,
+  "inverse_clicks_tried": 0,
+  "inverse_committed": false,
+  "inverse_commit_control": null,
+  "reversible": false,
+  "note": "no inverse control was taken",
+  "rep": 0,
+  "batch": 1,
+  "batch_ok": true
+ },
+ {
+  "verb": "invoice",
+  "state": "pending",
+  "order": 305,
+  "recipe": [],
+  "secs": 24.9,
+  "steps": 7,
+  "baseline_status": "Pending",
+  "pre_status": "Pending",
+  "post_status": "Processing",
+  "undo_status": "Closed",
+  "pre_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Credit Memo",
+   "Hold",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order_invoice/new/order_id/305/",
+  "gate_buttons": [
+   "Reset",
+   "Submit Invoice",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [
+   "Credit Memo"
+  ],
+  "inverse_taken": "Credit Memo",
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Invoice": 1,
+   "Submit Invoice": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/305/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/305/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/305/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/305/"
+  },
+  "residue_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Ship"
+  ],
+  "offered": true,
+  "gained": [
+   "Credit Memo"
+  ],
+  "lost": [
+   "Cancel",
+   "Invoice"
+  ],
+  "executed": true,
+  "outcome": "MEASURED",
+  "inverse_offered": true,
+  "inverse_clicks_tried": 1,
+  "inverse_committed": true,
+  "inverse_commit_control": "Refund Offline",
+  "reversible": false,
+  "note": "the inverse was taken, committed, and did not restore the status",
+  "rep": 0,
+  "batch": 1,
+  "batch_ok": true
+ },
+ {
+  "verb": "send_email",
+  "state": "pending",
+  "order": 306,
+  "recipe": [],
+  "secs": 20.0,
+  "steps": 5,
+  "baseline_status": "Pending",
+  "pre_status": "Pending",
+  "post_status": "Pending",
+  "undo_status": "Pending",
+  "pre_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/306/",
+  "gate_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "OK",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back",
+   "\\ue62f"
+  ],
+  "gate_warn": [
+   "StaticText 'Are you sure you want to send an order email to customer?'"
+  ],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Send Email": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/306/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/306/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/306/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/306/"
+  },
+  "residue_buttons": [],
+  "offered": true,
+  "gained": [],
+  "lost": [],
+  "executed": false,
+  "outcome": "OFF_PAGE_EFFECT",
+  "reversible": null,
+  "note": "consequence is not observable in the order view; the status predicate cannot decide this verb",
+  "rep": 0,
+  "batch": 1,
+  "batch_ok": true
+ },
+ {
+  "verb": "reorder",
+  "state": "pending",
+  "order": 307,
+  "recipe": [],
+  "secs": 17.6,
+  "steps": 4,
+  "baseline_status": "Pending",
+  "pre_status": "Pending",
+  "post_status": "Pending",
+  "undo_status": "Pending",
+  "pre_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order_create/",
+  "gate_buttons": [
+   "Add Products",
+   "Cancel",
+   "Configure",
+   "Submit Order",
+   "Update Changes",
+   "Update Items and Quantities",
+   "Validate VAT Number",
+   "\\ue625 Apply"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Reorder": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/307/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/307/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/307/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/307/"
+  },
+  "residue_buttons": [],
+  "offered": true,
+  "gained": [],
+  "lost": [],
+  "executed": false,
+  "outcome": "OFF_PAGE_EFFECT",
+  "reversible": null,
+  "note": "consequence is not observable in the order view; the status predicate cannot decide this verb",
+  "rep": 0,
+  "batch": 1,
+  "batch_ok": true
+ },
+ {
+  "verb": "hold",
+  "state": "pending",
+  "order": 301,
+  "recipe": [],
+  "secs": 33.2,
+  "steps": 5,
+  "baseline_status": "Pending",
+  "pre_status": "Pending",
+  "post_status": "On Hold",
+  "undo_status": "Pending",
+  "pre_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/301/",
+  "gate_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [
+   "Unhold"
+  ],
+  "inverse_taken": "Unhold",
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Hold": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/301/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/301/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/301/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/301/"
+  },
+  "residue_buttons": [],
+  "offered": true,
+  "gained": [
+   "Unhold"
+  ],
+  "lost": [
+   "Cancel",
+   "Hold",
+   "Invoice",
+   "Reorder",
+   "Ship"
+  ],
+  "executed": true,
+  "outcome": "MEASURED",
+  "inverse_offered": true,
+  "inverse_clicks_tried": 1,
+  "inverse_committed": true,
+  "inverse_commit_control": null,
+  "reversible": true,
+  "note": "restored via Unhold",
+  "cell_role": "POSITIVE_CONTROL",
+  "batch": 2,
+  "batch_ok": true
+ },
+ {
+  "verb": "hold",
+  "state": "processing_shipped",
+  "order": 302,
+  "recipe": [
+   "ship"
+  ],
+  "secs": 28.4,
+  "steps": 8,
+  "baseline_status": "Pending",
+  "pre_status": "Processing",
+  "post_status": "On Hold",
+  "undo_status": "Processing",
+  "pre_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+  "gate_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [
+   "Unhold"
+  ],
+  "inverse_taken": "Unhold",
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Hold": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/302/"
+  },
+  "residue_buttons": [],
+  "offered": true,
+  "gained": [
+   "Unhold"
+  ],
+  "lost": [
+   "Cancel",
+   "Hold",
+   "Invoice",
+   "Reorder"
+  ],
+  "executed": true,
+  "outcome": "MEASURED",
+  "inverse_offered": true,
+  "inverse_clicks_tried": 1,
+  "inverse_committed": true,
+  "inverse_commit_control": null,
+  "reversible": true,
+  "note": "restored via Unhold",
+  "rep": 0,
+  "batch": 2,
+  "batch_ok": true
+ },
+ {
+  "verb": "cancel",
+  "state": "processing_shipped",
+  "order": 303,
+  "recipe": [
+   "ship"
+  ],
+  "secs": 27.1,
+  "steps": 8,
+  "baseline_status": "Pending",
+  "pre_status": "Processing",
+  "post_status": "Canceled",
+  "undo_status": "Canceled",
+  "pre_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/303/",
+  "gate_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "OK",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back",
+   "\\ue62f"
+  ],
+  "gate_warn": [
+   "StaticText 'Are you sure you want to cancel this order?'"
+  ],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Cancel": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/303/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/303/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/303/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/303/"
+  },
+  "residue_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Send Email"
+  ],
+  "offered": true,
+  "gained": [],
+  "lost": [
+   "Cancel",
+   "Hold",
+   "Invoice",
+   "Send Email"
+  ],
+  "executed": true,
+  "outcome": "MEASURED",
+  "inverse_offered": false,
+  "inverse_clicks_tried": 0,
+  "inverse_committed": false,
+  "inverse_commit_control": null,
+  "reversible": false,
+  "note": "no inverse control was taken",
+  "rep": 0,
+  "batch": 2,
+  "batch_ok": true
+ },
+ {
+  "verb": "ship",
+  "state": "processing_shipped",
+  "order": 304,
+  "recipe": [
+   "ship"
+  ],
+  "secs": 22.5,
+  "steps": 6,
+  "baseline_status": "Pending",
+  "pre_status": "Processing",
+  "post_status": "Processing",
+  "undo_status": "Processing",
+  "pre_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/304/",
+  "gate_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Ship": 0,
+   "Submit Shipment": 0,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/304/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/304/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/304/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/304/"
+  },
+  "residue_buttons": [],
+  "offered": false,
+  "outcome": "NOT_OFFERED",
+  "executed": false,
+  "reversible": null,
+  "note": "verb absent from the affordance set",
+  "rep": 0,
+  "batch": 2,
+  "batch_ok": true
+ },
+ {
+  "verb": "invoice",
+  "state": "processing_shipped",
+  "order": 305,
+  "recipe": [
+   "ship"
+  ],
+  "secs": 32.1,
+  "steps": 10,
+  "baseline_status": "Pending",
+  "pre_status": "Processing",
+  "post_status": "Complete",
+  "undo_status": "Closed",
+  "pre_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order_invoice/new/order_id/305/",
+  "gate_buttons": [
+   "Reset",
+   "Submit Invoice",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [
+   "Credit Memo"
+  ],
+  "inverse_taken": "Credit Memo",
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Invoice": 1,
+   "Submit Invoice": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/305/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/305/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/305/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/305/"
+  },
+  "residue_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice"
+  ],
+  "offered": true,
+  "gained": [
+   "Credit Memo"
+  ],
+  "lost": [
+   "Cancel",
+   "Hold",
+   "Invoice"
+  ],
+  "executed": true,
+  "outcome": "MEASURED",
+  "inverse_offered": true,
+  "inverse_clicks_tried": 1,
+  "inverse_committed": true,
+  "inverse_commit_control": "Refund Offline",
+  "reversible": false,
+  "note": "the inverse was taken, committed, and did not restore the status",
+  "rep": 0,
+  "batch": 2,
+  "batch_ok": true
+ },
+ {
+  "verb": "send_email",
+  "state": "processing_shipped",
+  "order": 306,
+  "recipe": [
+   "ship"
+  ],
+  "secs": 27.1,
+  "steps": 8,
+  "baseline_status": "Pending",
+  "pre_status": "Processing",
+  "post_status": "Processing",
+  "undo_status": "Processing",
+  "pre_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/306/",
+  "gate_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "OK",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back",
+   "\\ue62f"
+  ],
+  "gate_warn": [
+   "StaticText 'Are you sure you want to send an order email to customer?'"
+  ],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Send Email": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/306/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/306/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/306/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/306/"
+  },
+  "residue_buttons": [],
+  "offered": true,
+  "gained": [],
+  "lost": [],
+  "executed": false,
+  "outcome": "OFF_PAGE_EFFECT",
+  "reversible": null,
+  "note": "consequence is not observable in the order view; the status predicate cannot decide this verb",
+  "rep": 0,
+  "batch": 2,
+  "batch_ok": true
+ },
+ {
+  "verb": "reorder",
+  "state": "processing_shipped",
+  "order": 307,
+  "recipe": [
+   "ship"
+  ],
+  "secs": 25.0,
+  "steps": 7,
+  "baseline_status": "Pending",
+  "pre_status": "Processing",
+  "post_status": "Processing",
+  "undo_status": "Processing",
+  "pre_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order_create/",
+  "gate_buttons": [
+   "Add Products",
+   "Cancel",
+   "Configure",
+   "Submit Order",
+   "Update Changes",
+   "Update Items and Quantities",
+   "Validate VAT Number",
+   "\\ue625 Apply"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Reorder": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/307/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/307/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/307/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/307/"
+  },
+  "residue_buttons": [],
+  "offered": true,
+  "gained": [],
+  "lost": [],
+  "executed": false,
+  "outcome": "OFF_PAGE_EFFECT",
+  "reversible": null,
+  "note": "consequence is not observable in the order view; the status predicate cannot decide this verb",
+  "rep": 0,
+  "batch": 2,
+  "batch_ok": true
+ },
+ {
+  "verb": "hold",
+  "state": "pending",
+  "order": 301,
+  "recipe": [],
+  "secs": 33.0,
+  "steps": 5,
+  "baseline_status": "Pending",
+  "pre_status": "Pending",
+  "post_status": "On Hold",
+  "undo_status": "Pending",
+  "pre_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/301/",
+  "gate_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [
+   "Unhold"
+  ],
+  "inverse_taken": "Unhold",
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Hold": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/301/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/301/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/301/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/301/"
+  },
+  "residue_buttons": [],
+  "offered": true,
+  "gained": [
+   "Unhold"
+  ],
+  "lost": [
+   "Cancel",
+   "Hold",
+   "Invoice",
+   "Reorder",
+   "Ship"
+  ],
+  "executed": true,
+  "outcome": "MEASURED",
+  "inverse_offered": true,
+  "inverse_clicks_tried": 1,
+  "inverse_committed": true,
+  "inverse_commit_control": null,
+  "reversible": true,
+  "note": "restored via Unhold",
+  "cell_role": "POSITIVE_CONTROL",
+  "batch": 3,
+  "batch_ok": true
+ },
+ {
+  "verb": "hold",
+  "state": "processing_invoiced",
+  "order": 302,
+  "recipe": [
+   "invoice"
+  ],
+  "secs": 27.9,
+  "steps": 8,
+  "baseline_status": "Pending",
+  "pre_status": "Processing",
+  "post_status": "On Hold",
+  "undo_status": "Processing",
+  "pre_buttons": [
+   "Credit Memo",
+   "Hold",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Credit Memo",
+   "Hold",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+  "gate_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [
+   "Unhold"
+  ],
+  "inverse_taken": "Unhold",
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Hold": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/302/"
+  },
+  "residue_buttons": [],
+  "offered": true,
+  "gained": [
+   "Unhold"
+  ],
+  "lost": [
+   "Credit Memo",
+   "Hold",
+   "Reorder",
+   "Ship"
+  ],
+  "executed": true,
+  "outcome": "MEASURED",
+  "inverse_offered": true,
+  "inverse_clicks_tried": 1,
+  "inverse_committed": true,
+  "inverse_commit_control": null,
+  "reversible": true,
+  "note": "restored via Unhold",
+  "rep": 0,
+  "batch": 3,
+  "batch_ok": true
+ },
+ {
+  "verb": "cancel",
+  "state": "processing_invoiced",
+  "order": 303,
+  "recipe": [
+   "invoice"
+  ],
+  "secs": 22.2,
+  "steps": 6,
+  "baseline_status": "Pending",
+  "pre_status": "Processing",
+  "post_status": "Processing",
+  "undo_status": "Processing",
+  "pre_buttons": [
+   "Credit Memo",
+   "Hold",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Credit Memo",
+   "Hold",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Credit Memo",
+   "Hold",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/303/",
+  "gate_buttons": [
+   "Credit Memo",
+   "Hold",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memo",
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Cancel": 0,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/303/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/303/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/303/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/303/"
+  },
+  "residue_buttons": [],
+  "offered": false,
+  "outcome": "NOT_OFFERED",
+  "executed": false,
+  "reversible": null,
+  "note": "verb absent from the affordance set",
+  "rep": 0,
+  "batch": 3,
+  "batch_ok": true
+ },
+ {
+  "verb": "ship",
+  "state": "processing_invoiced",
+  "order": 304,
+  "recipe": [
+   "invoice"
+  ],
+  "secs": 28.4,
+  "steps": 8,
+  "baseline_status": "Pending",
+  "pre_status": "Processing",
+  "post_status": "Complete",
+  "undo_status": "Complete",
+  "pre_buttons": [
+   "Credit Memo",
+   "Hold",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/admin/order_shipment/new/order_id/304/",
+  "gate_buttons": [
+   "Add Tracking Number",
+   "Reset",
+   "Submit Shipment",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memo",
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Ship": 1,
+   "Submit Shipment": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/304/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/304/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/304/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/304/"
+  },
+  "residue_buttons": [
+   "Hold",
+   "Ship"
+  ],
+  "offered": true,
+  "gained": [],
+  "lost": [
+   "Hold",
+   "Ship"
+  ],
+  "executed": true,
+  "outcome": "MEASURED",
+  "inverse_offered": false,
+  "inverse_clicks_tried": 0,
+  "inverse_committed": false,
+  "inverse_commit_control": null,
+  "reversible": false,
+  "note": "no inverse control was taken",
+  "rep": 0,
+  "batch": 3,
+  "batch_ok": true
+ },
+ {
+  "verb": "invoice",
+  "state": "processing_invoiced",
+  "order": 305,
+  "recipe": [
+   "invoice"
+  ],
+  "secs": 22.3,
+  "steps": 6,
+  "baseline_status": "Pending",
+  "pre_status": "Processing",
+  "post_status": "Processing",
+  "undo_status": "Processing",
+  "pre_buttons": [
+   "Credit Memo",
+   "Hold",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Credit Memo",
+   "Hold",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Credit Memo",
+   "Hold",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/305/",
+  "gate_buttons": [
+   "Credit Memo",
+   "Hold",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memo",
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Invoice": 0,
+   "Submit Invoice": 0,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/305/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/305/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/305/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/305/"
+  },
+  "residue_buttons": [],
+  "offered": false,
+  "outcome": "NOT_OFFERED",
+  "executed": false,
+  "reversible": null,
+  "note": "verb absent from the affordance set",
+  "rep": 0,
+  "batch": 3,
+  "batch_ok": true
+ },
+ {
+  "verb": "send_email",
+  "state": "processing_invoiced",
+  "order": 306,
+  "recipe": [
+   "invoice"
+  ],
+  "secs": 27.4,
+  "steps": 8,
+  "baseline_status": "Pending",
+  "pre_status": "Processing",
+  "post_status": "Processing",
+  "undo_status": "Processing",
+  "pre_buttons": [
+   "Credit Memo",
+   "Hold",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Credit Memo",
+   "Hold",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Credit Memo",
+   "Hold",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/306/",
+  "gate_buttons": [
+   "Cancel",
+   "Credit Memo",
+   "Hold",
+   "Login as Customer",
+   "OK",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back",
+   "\\ue62f"
+  ],
+  "gate_warn": [
+   "StaticText 'Are you sure you want to send an order email to customer?'"
+  ],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memo",
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Send Email": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/306/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/306/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/306/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/306/"
+  },
+  "residue_buttons": [],
+  "offered": true,
+  "gained": [],
+  "lost": [],
+  "executed": false,
+  "outcome": "OFF_PAGE_EFFECT",
+  "reversible": null,
+  "note": "consequence is not observable in the order view; the status predicate cannot decide this verb",
+  "rep": 0,
+  "batch": 3,
+  "batch_ok": true
+ },
+ {
+  "verb": "reorder",
+  "state": "processing_invoiced",
+  "order": 307,
+  "recipe": [
+   "invoice"
+  ],
+  "secs": 25.2,
+  "steps": 7,
+  "baseline_status": "Pending",
+  "pre_status": "Processing",
+  "post_status": "Processing",
+  "undo_status": "Processing",
+  "pre_buttons": [
+   "Credit Memo",
+   "Hold",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Credit Memo",
+   "Hold",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Credit Memo",
+   "Hold",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order_create/",
+  "gate_buttons": [
+   "Add Products",
+   "Cancel",
+   "Configure",
+   "Submit Order",
+   "Update Changes",
+   "Update Items and Quantities",
+   "Validate VAT Number",
+   "\\ue625 Apply"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memo",
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Reorder": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/307/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/307/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/307/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/307/"
+  },
+  "residue_buttons": [],
+  "offered": true,
+  "gained": [],
+  "lost": [],
+  "executed": false,
+  "outcome": "OFF_PAGE_EFFECT",
+  "reversible": null,
+  "note": "consequence is not observable in the order view; the status predicate cannot decide this verb",
+  "rep": 0,
+  "batch": 3,
+  "batch_ok": true
+ },
+ {
+  "verb": "hold",
+  "state": "pending",
+  "order": 301,
+  "recipe": [],
+  "secs": 33.4,
+  "steps": 5,
+  "baseline_status": "Pending",
+  "pre_status": "Pending",
+  "post_status": "On Hold",
+  "undo_status": "Pending",
+  "pre_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/301/",
+  "gate_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [
+   "Unhold"
+  ],
+  "inverse_taken": "Unhold",
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Hold": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/301/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/301/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/301/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/301/"
+  },
+  "residue_buttons": [],
+  "offered": true,
+  "gained": [
+   "Unhold"
+  ],
+  "lost": [
+   "Cancel",
+   "Hold",
+   "Invoice",
+   "Reorder",
+   "Ship"
+  ],
+  "executed": true,
+  "outcome": "MEASURED",
+  "inverse_offered": true,
+  "inverse_clicks_tried": 1,
+  "inverse_committed": true,
+  "inverse_commit_control": null,
+  "reversible": true,
+  "note": "restored via Unhold",
+  "cell_role": "POSITIVE_CONTROL",
+  "batch": 4,
+  "batch_ok": true
+ },
+ {
+  "verb": "hold",
+  "state": "on_hold",
+  "order": 302,
+  "recipe": [
+   "hold"
+  ],
+  "secs": 20.0,
+  "steps": 5,
+  "baseline_status": "Pending",
+  "pre_status": "On Hold",
+  "post_status": "On Hold",
+  "undo_status": "On Hold",
+  "pre_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+  "gate_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos",
+   "Unhold"
+  ],
+  "seq_found": {
+   "Hold": 0,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/302/"
+  },
+  "residue_buttons": [],
+  "offered": false,
+  "outcome": "NOT_OFFERED",
+  "executed": false,
+  "reversible": null,
+  "note": "verb absent from the affordance set",
+  "rep": 0,
+  "batch": 4,
+  "batch_ok": true
+ },
+ {
+  "verb": "cancel",
+  "state": "on_hold",
+  "order": 303,
+  "recipe": [
+   "hold"
+  ],
+  "secs": 20.1,
+  "steps": 5,
+  "baseline_status": "Pending",
+  "pre_status": "On Hold",
+  "post_status": "On Hold",
+  "undo_status": "On Hold",
+  "pre_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/303/",
+  "gate_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos",
+   "Unhold"
+  ],
+  "seq_found": {
+   "Cancel": 0,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/303/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/303/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/303/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/303/"
+  },
+  "residue_buttons": [],
+  "offered": false,
+  "outcome": "NOT_OFFERED",
+  "executed": false,
+  "reversible": null,
+  "note": "verb absent from the affordance set",
+  "rep": 0,
+  "batch": 4,
+  "batch_ok": true
+ },
+ {
+  "verb": "ship",
+  "state": "on_hold",
+  "order": 304,
+  "recipe": [
+   "hold"
+  ],
+  "secs": 19.6,
+  "steps": 5,
+  "baseline_status": "Pending",
+  "pre_status": "On Hold",
+  "post_status": "On Hold",
+  "undo_status": "On Hold",
+  "pre_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/304/",
+  "gate_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos",
+   "Unhold"
+  ],
+  "seq_found": {
+   "Ship": 0,
+   "Submit Shipment": 0,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/304/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/304/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/304/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/304/"
+  },
+  "residue_buttons": [],
+  "offered": false,
+  "outcome": "NOT_OFFERED",
+  "executed": false,
+  "reversible": null,
+  "note": "verb absent from the affordance set",
+  "rep": 0,
+  "batch": 4,
+  "batch_ok": true
+ },
+ {
+  "verb": "invoice",
+  "state": "on_hold",
+  "order": 305,
+  "recipe": [
+   "hold"
+  ],
+  "secs": 20.1,
+  "steps": 5,
+  "baseline_status": "Pending",
+  "pre_status": "On Hold",
+  "post_status": "On Hold",
+  "undo_status": "On Hold",
+  "pre_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/305/",
+  "gate_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos",
+   "Unhold"
+  ],
+  "seq_found": {
+   "Invoice": 0,
+   "Submit Invoice": 0,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/305/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/305/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/305/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/305/"
+  },
+  "residue_buttons": [],
+  "offered": false,
+  "outcome": "NOT_OFFERED",
+  "executed": false,
+  "reversible": null,
+  "note": "verb absent from the affordance set",
+  "rep": 0,
+  "batch": 4,
+  "batch_ok": true
+ },
+ {
+  "verb": "send_email",
+  "state": "on_hold",
+  "order": 306,
+  "recipe": [
+   "hold"
+  ],
+  "secs": 25.4,
+  "steps": 7,
+  "baseline_status": "Pending",
+  "pre_status": "On Hold",
+  "post_status": "On Hold",
+  "undo_status": "On Hold",
+  "pre_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/306/",
+  "gate_buttons": [
+   "Cancel",
+   "Login as Customer",
+   "OK",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back",
+   "\\ue62f"
+  ],
+  "gate_warn": [
+   "StaticText 'Are you sure you want to send an order email to customer?'"
+  ],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos",
+   "Unhold"
+  ],
+  "seq_found": {
+   "Send Email": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/306/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/306/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/306/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/306/"
+  },
+  "residue_buttons": [],
+  "offered": true,
+  "gained": [],
+  "lost": [],
+  "executed": false,
+  "outcome": "OFF_PAGE_EFFECT",
+  "reversible": null,
+  "note": "consequence is not observable in the order view; the status predicate cannot decide this verb",
+  "rep": 0,
+  "batch": 4,
+  "batch_ok": true
+ },
+ {
+  "verb": "reorder",
+  "state": "on_hold",
+  "order": 307,
+  "recipe": [
+   "hold"
+  ],
+  "secs": 19.8,
+  "steps": 5,
+  "baseline_status": "Pending",
+  "pre_status": "On Hold",
+  "post_status": "On Hold",
+  "undo_status": "On Hold",
+  "pre_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/307/",
+  "gate_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos",
+   "Unhold"
+  ],
+  "seq_found": {
+   "Reorder": 0,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/307/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/307/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/307/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/307/"
+  },
+  "residue_buttons": [],
+  "offered": false,
+  "outcome": "NOT_OFFERED",
+  "executed": false,
+  "reversible": null,
+  "note": "verb absent from the affordance set",
+  "rep": 0,
+  "batch": 4,
+  "batch_ok": true
+ },
+ {
+  "verb": "hold",
+  "state": "pending",
+  "order": 301,
+  "recipe": [],
+  "secs": 33.3,
+  "steps": 5,
+  "baseline_status": "Pending",
+  "pre_status": "Pending",
+  "post_status": "On Hold",
+  "undo_status": "Pending",
+  "pre_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/301/",
+  "gate_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [
+   "Unhold"
+  ],
+  "inverse_taken": "Unhold",
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Hold": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/301/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/301/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/301/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/301/"
+  },
+  "residue_buttons": [],
+  "offered": true,
+  "gained": [
+   "Unhold"
+  ],
+  "lost": [
+   "Cancel",
+   "Hold",
+   "Invoice",
+   "Reorder",
+   "Ship"
+  ],
+  "executed": true,
+  "outcome": "MEASURED",
+  "inverse_offered": true,
+  "inverse_clicks_tried": 1,
+  "inverse_committed": true,
+  "inverse_commit_control": null,
+  "reversible": true,
+  "note": "restored via Unhold",
+  "cell_role": "POSITIVE_CONTROL",
+  "batch": 5,
+  "batch_ok": true
+ },
+ {
+  "verb": "hold",
+  "state": "complete",
+  "order": 302,
+  "recipe": [
+   "ship",
+   "invoice"
+  ],
+  "secs": 30.8,
+  "steps": 9,
+  "baseline_status": "Pending",
+  "pre_status": "Complete",
+  "post_status": "Complete",
+  "undo_status": "Complete",
+  "pre_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+  "gate_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memo",
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Hold": 0,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/302/"
+  },
+  "residue_buttons": [],
+  "offered": false,
+  "outcome": "NOT_OFFERED",
+  "executed": false,
+  "reversible": null,
+  "note": "verb absent from the affordance set",
+  "rep": 0,
+  "batch": 5,
+  "batch_ok": true
+ },
+ {
+  "verb": "cancel",
+  "state": "complete",
+  "order": 303,
+  "recipe": [
+   "ship",
+   "invoice"
+  ],
+  "secs": 30.6,
+  "steps": 9,
+  "baseline_status": "Pending",
+  "pre_status": "Complete",
+  "post_status": "Complete",
+  "undo_status": "Complete",
+  "pre_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/303/",
+  "gate_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memo",
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Cancel": 0,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/303/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/303/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/303/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/303/"
+  },
+  "residue_buttons": [],
+  "offered": false,
+  "outcome": "NOT_OFFERED",
+  "executed": false,
+  "reversible": null,
+  "note": "verb absent from the affordance set",
+  "rep": 0,
+  "batch": 5,
+  "batch_ok": true
+ },
+ {
+  "verb": "ship",
+  "state": "complete",
+  "order": 304,
+  "recipe": [
+   "ship",
+   "invoice"
+  ],
+  "secs": 30.6,
+  "steps": 9,
+  "baseline_status": "Pending",
+  "pre_status": "Complete",
+  "post_status": "Complete",
+  "undo_status": "Complete",
+  "pre_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/304/",
+  "gate_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memo",
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Ship": 0,
+   "Submit Shipment": 0,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/304/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/304/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/304/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/304/"
+  },
+  "residue_buttons": [],
+  "offered": false,
+  "outcome": "NOT_OFFERED",
+  "executed": false,
+  "reversible": null,
+  "note": "verb absent from the affordance set",
+  "rep": 0,
+  "batch": 5,
+  "batch_ok": true
+ },
+ {
+  "verb": "invoice",
+  "state": "complete",
+  "order": 305,
+  "recipe": [
+   "ship",
+   "invoice"
+  ],
+  "secs": 30.0,
+  "steps": 9,
+  "baseline_status": "Pending",
+  "pre_status": "Complete",
+  "post_status": "Complete",
+  "undo_status": "Complete",
+  "pre_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/305/",
+  "gate_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memo",
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Invoice": 0,
+   "Submit Invoice": 0,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/305/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/305/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/305/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/305/"
+  },
+  "residue_buttons": [],
+  "offered": false,
+  "outcome": "NOT_OFFERED",
+  "executed": false,
+  "reversible": null,
+  "note": "verb absent from the affordance set",
+  "rep": 0,
+  "batch": 5,
+  "batch_ok": true
+ },
+ {
+  "verb": "send_email",
+  "state": "complete",
+  "order": 306,
+  "recipe": [
+   "ship",
+   "invoice"
+  ],
+  "secs": 35.5,
+  "steps": 11,
+  "baseline_status": "Pending",
+  "pre_status": "Complete",
+  "post_status": "Complete",
+  "undo_status": "Complete",
+  "pre_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/306/",
+  "gate_buttons": [
+   "Cancel",
+   "Credit Memo",
+   "Login as Customer",
+   "OK",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back",
+   "\\ue62f"
+  ],
+  "gate_warn": [
+   "StaticText 'Are you sure you want to send an order email to customer?'"
+  ],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memo",
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Send Email": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/306/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/306/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/306/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/306/"
+  },
+  "residue_buttons": [],
+  "offered": true,
+  "gained": [],
+  "lost": [],
+  "executed": false,
+  "outcome": "OFF_PAGE_EFFECT",
+  "reversible": null,
+  "note": "consequence is not observable in the order view; the status predicate cannot decide this verb",
+  "rep": 0,
+  "batch": 5,
+  "batch_ok": true
+ },
+ {
+  "verb": "reorder",
+  "state": "complete",
+  "order": 307,
+  "recipe": [
+   "ship",
+   "invoice"
+  ],
+  "secs": 33.2,
+  "steps": 10,
+  "baseline_status": "Pending",
+  "pre_status": "Complete",
+  "post_status": "Complete",
+  "undo_status": "Complete",
+  "pre_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Credit Memo",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order_create/",
+  "gate_buttons": [
+   "Add Products",
+   "Cancel",
+   "Configure",
+   "Submit Order",
+   "Update Changes",
+   "Update Items and Quantities",
+   "Validate VAT Number",
+   "\\ue625 Apply"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memo",
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Reorder": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/307/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/307/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/307/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/307/"
+  },
+  "residue_buttons": [],
+  "offered": true,
+  "gained": [],
+  "lost": [],
+  "executed": false,
+  "outcome": "OFF_PAGE_EFFECT",
+  "reversible": null,
+  "note": "consequence is not observable in the order view; the status predicate cannot decide this verb",
+  "rep": 0,
+  "batch": 5,
+  "batch_ok": true
+ },
+ {
+  "verb": "hold",
+  "state": "pending",
+  "order": 301,
+  "recipe": [],
+  "secs": 33.4,
+  "steps": 5,
+  "baseline_status": "Pending",
+  "pre_status": "Pending",
+  "post_status": "On Hold",
+  "undo_status": "Pending",
+  "pre_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/301/",
+  "gate_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [
+   "Unhold"
+  ],
+  "inverse_taken": "Unhold",
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Hold": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/301/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/301/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/301/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/301/"
+  },
+  "residue_buttons": [],
+  "offered": true,
+  "gained": [
+   "Unhold"
+  ],
+  "lost": [
+   "Cancel",
+   "Hold",
+   "Invoice",
+   "Reorder",
+   "Ship"
+  ],
+  "executed": true,
+  "outcome": "MEASURED",
+  "inverse_offered": true,
+  "inverse_clicks_tried": 1,
+  "inverse_committed": true,
+  "inverse_commit_control": null,
+  "reversible": true,
+  "note": "restored via Unhold",
+  "cell_role": "POSITIVE_CONTROL",
+  "batch": 6,
+  "batch_ok": true
+ },
+ {
+  "verb": "hold",
+  "state": "canceled",
+  "order": 302,
+  "recipe": [
+   "cancel"
+  ],
+  "secs": 23.5,
+  "steps": 6,
+  "baseline_status": "Pending",
+  "pre_status": "Canceled",
+  "post_status": "Canceled",
+  "undo_status": "Canceled",
+  "pre_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+  "gate_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Hold": 0,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/302/"
+  },
+  "residue_buttons": [],
+  "offered": false,
+  "outcome": "NOT_OFFERED",
+  "executed": false,
+  "reversible": null,
+  "note": "verb absent from the affordance set",
+  "rep": 0,
+  "batch": 6,
+  "batch_ok": true
+ },
+ {
+  "verb": "cancel",
+  "state": "canceled",
+  "order": 303,
+  "recipe": [
+   "cancel"
+  ],
+  "secs": 23.0,
+  "steps": 6,
+  "baseline_status": "Pending",
+  "pre_status": "Canceled",
+  "post_status": "Canceled",
+  "undo_status": "Canceled",
+  "pre_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/303/",
+  "gate_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Cancel": 0,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/303/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/303/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/303/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/303/"
+  },
+  "residue_buttons": [],
+  "offered": false,
+  "outcome": "NOT_OFFERED",
+  "executed": false,
+  "reversible": null,
+  "note": "verb absent from the affordance set",
+  "rep": 0,
+  "batch": 6,
+  "batch_ok": true
+ },
+ {
+  "verb": "ship",
+  "state": "canceled",
+  "order": 304,
+  "recipe": [
+   "cancel"
+  ],
+  "secs": 22.1,
+  "steps": 6,
+  "baseline_status": "Pending",
+  "pre_status": "Canceled",
+  "post_status": "Canceled",
+  "undo_status": "Canceled",
+  "pre_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/304/",
+  "gate_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Ship": 0,
+   "Submit Shipment": 0,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/304/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/304/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/304/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/304/"
+  },
+  "residue_buttons": [],
+  "offered": false,
+  "outcome": "NOT_OFFERED",
+  "executed": false,
+  "reversible": null,
+  "note": "verb absent from the affordance set",
+  "rep": 0,
+  "batch": 6,
+  "batch_ok": true
+ },
+ {
+  "verb": "invoice",
+  "state": "canceled",
+  "order": 305,
+  "recipe": [
+   "cancel"
+  ],
+  "secs": 21.7,
+  "steps": 6,
+  "baseline_status": "Pending",
+  "pre_status": "Canceled",
+  "post_status": "Canceled",
+  "undo_status": "Canceled",
+  "pre_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/305/",
+  "gate_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Invoice": 0,
+   "Submit Invoice": 0,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/305/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/305/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/305/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/305/"
+  },
+  "residue_buttons": [],
+  "offered": false,
+  "outcome": "NOT_OFFERED",
+  "executed": false,
+  "reversible": null,
+  "note": "verb absent from the affordance set",
+  "rep": 0,
+  "batch": 6,
+  "batch_ok": true
+ },
+ {
+  "verb": "send_email",
+  "state": "canceled",
+  "order": 306,
+  "recipe": [
+   "cancel"
+  ],
+  "secs": 22.1,
+  "steps": 6,
+  "baseline_status": "Pending",
+  "pre_status": "Canceled",
+  "post_status": "Canceled",
+  "undo_status": "Canceled",
+  "pre_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order/view/order_id/306/",
+  "gate_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Send Email": 0,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/306/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/306/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/306/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/306/"
+  },
+  "residue_buttons": [],
+  "offered": false,
+  "outcome": "NOT_OFFERED",
+  "executed": false,
+  "reversible": null,
+  "note": "verb absent from the affordance set",
+  "rep": 0,
+  "batch": 6,
+  "batch_ok": true
+ },
+ {
+  "verb": "reorder",
+  "state": "canceled",
+  "order": 307,
+  "recipe": [
+   "cancel"
+  ],
+  "secs": 25.0,
+  "steps": 7,
+  "baseline_status": "Pending",
+  "pre_status": "Canceled",
+  "post_status": "Canceled",
+  "undo_status": "Canceled",
+  "pre_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "undo_buttons": [
+   "Login as Customer",
+   "Reorder",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "gate_url": "http://localhost:7780/admin/sales/order_create/",
+  "gate_buttons": [
+   "Add Products",
+   "Cancel",
+   "Configure",
+   "Submit Order",
+   "Update Changes",
+   "Update Items and Quantities",
+   "Validate VAT Number",
+   "\\ue625 Apply"
+  ],
+  "gate_warn": [],
+  "pre_warn": [],
+  "inverse_candidates": [],
+  "inverse_taken": null,
+  "gained_unmatched": [],
+  "inverse_present_not_gained": [
+   "Credit Memos"
+  ],
+  "seq_found": {
+   "Reorder": 1,
+   "OK": 0
+  },
+  "urls": {
+   "S0": "http://localhost:7780/admin/sales/order/view/order_id/307/",
+   "PRE": "http://localhost:7780/admin/sales/order/view/order_id/307/",
+   "POST": "http://localhost:7780/admin/sales/order/view/order_id/307/",
+   "UNDO": "http://localhost:7780/admin/sales/order/view/order_id/307/"
+  },
+  "residue_buttons": [],
+  "offered": true,
+  "gained": [],
+  "lost": [],
+  "executed": false,
+  "outcome": "OFF_PAGE_EFFECT",
+  "reversible": null,
+  "note": "consequence is not observable in the order view; the status predicate cannot decide this verb",
+  "rep": 0,
+  "batch": 6,
+  "batch_ok": true
+ }
+]

@@ -1,0 +1,89 @@
+{
+ "n_tasks": 812,
+ "n_are": 812,
+ "n_nee": 663,
+ "n_mutate": 374,
+ "n_statechanging_tasks": 366,
+ "n_statechanging_templates": 77,
+ "n_should_not_exist": 8,
+ "should_not_exist": [
+  [
+   528,
+   "mutate",
+   [
+    "shopping"
+   ],
+   "POST",
+   "__SHOPPING__/contact/index/post"
+  ],
+  [
+   529,
+   "mutate",
+   [
+    "shopping"
+   ],
+   "POST",
+   "__SHOPPING__/contact/index/post"
+  ],
+  [
+   530,
+   "mutate",
+   [
+    "shopping"
+   ],
+   "POST",
+   "__SHOPPING__/contact/index/post"
+  ],
+  [
+   689,
+   "mutate",
+   [
+    "shopping"
+   ],
+   "POST",
+   "__SHOPPING__/contact/index/post"
+  ],
+  [
+   690,
+   "mutate",
+   [
+    "shopping"
+   ],
+   "POST",
+   "__SHOPPING__/contact/index/post"
+  ],
+  [
+   691,
+   "mutate",
+   [
+    "shopping"
+   ],
+   "POST",
+   "__SHOPPING__/contact/index/post"
+  ],
+  [
+   692,
+   "mutate",
+   [
+    "shopping"
+   ],
+   "POST",
+   "__SHOPPING__/contact/index/post"
+  ],
+  [
+   693,
+   "mutate",
+   [
+    "shopping"
+   ],
+   "POST",
+   "__SHOPPING__/contact/index/post"
+  ]
+ ],
+ "mutate_without_network_eval": [
+  491,
+  790,
+  805,
+  807
+ ]
+}

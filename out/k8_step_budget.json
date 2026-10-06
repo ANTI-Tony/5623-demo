@@ -1,0 +1,58 @@
+{
+ "n": 20,
+ "T0@12 seed1": {
+  "succ": 7,
+  "n": 20,
+  "truncated": 10,
+  "mean_steps": 8.65,
+  "usd": 1.83135
+ },
+ "T0@12 seed2": {
+  "succ": 8,
+  "n": 20,
+  "truncated": 10,
+  "mean_steps": 9.85,
+  "usd": 2.02944
+ },
+ "T0@20": {
+  "succ": 10,
+  "n": 20,
+  "truncated": 8,
+  "mean_steps": 12.4,
+  "usd": 2.69693
+ },
+ "paired_vs_seed1": {
+  "b": 3,
+  "c": 0,
+  "p": 0.25
+ },
+ "paired_vs_seed2": {
+  "b": 2,
+  "c": 0,
+  "p": 0.5
+ },
+ "truncated_in_both": {
+  "tasks": [
+   538,
+   539,
+   540,
+   541,
+   542,
+   773,
+   774
+  ],
+  "n": 7,
+  "rescued": [],
+  "n_rescued": 0
+ },
+ "still_truncated_at_20": [
+  499,
+  538,
+  539,
+  540,
+  541,
+  542,
+  773,
+  774
+ ]
+}

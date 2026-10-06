@@ -1,0 +1,85 @@
+{
+ "C1_predecessor_all": {
+  "pairs": 72,
+  "lower": 27,
+  "higher": 24,
+  "tied": 21,
+  "median": 0.0,
+  "p": 0.7797679305530743
+ },
+ "C2_predecessor_no_modal": {
+  "pairs": 52,
+  "lower": 27,
+  "higher": 4,
+  "tied": 21,
+  "median": -1.0,
+  "p": 3.39532271027565e-05
+ },
+ "C4_output_cap": {
+  "n": 14,
+  "share": 21.96262170952864,
+  "commits": 0,
+  "verbs": {
+   "noop": 14
+  }
+ },
+ "C4_click_only_T3": {
+  "pct_steps": 21.54696132596685,
+  "pct_tokens": 7.796456881417248
+ },
+ "C5_task_clustered_T3": {
+  "diff": -166.33417779824964,
+  "p": 0.005599440055994401
+ },
+ "C5_task_clustered_ALL": {
+  "diff": -93.70104735883426,
+  "p": 0.0037996200379962005
+ },
+ "C5_clusters": {
+  "n_tasks": 17,
+  "identical": 11
+ },
+ "C7_all100": {
+  "succ_coll": 2,
+  "succ_no": 44,
+  "fail_coll": 19,
+  "fail_no": 35,
+  "p": 0.00013789398994741483
+ },
+ "C7_matched80": {
+  "succ_coll": 0,
+  "succ_no": 36,
+  "fail_coll": 14,
+  "fail_no": 30,
+  "p": 0.00014615689556121968
+ },
+ "C8_rescue_seed1": {
+  "truncated": 10,
+  "rescued": 2,
+  "tasks": [
+   497,
+   498
+  ]
+ },
+ "C8_rescue_seed2": {
+  "truncated": 10,
+  "rescued": 2,
+  "tasks": [
+   470,
+   471
+  ]
+ },
+ "C8_intersection": {
+  "n": 7,
+  "rescued": [],
+  "tasks": [
+   538,
+   539,
+   540,
+   541,
+   542,
+   773,
+   774
+  ]
+ }
+}

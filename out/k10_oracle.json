@@ -1,0 +1,18 @@
+{
+ "A1": {
+  "uniform_T0": 3.8607899999999997,
+  "uniform_T3": 4.618565999999999,
+  "hybrid": 3.9324399999999997,
+  "cells": 40,
+  "pct_steps_upgraded": 17.83783783783784,
+  "hybrid_vs_T3": -14.855823214391632,
+  "hybrid_vs_T0": 1.855837794855457
+ },
+ "A2": {
+  "episodes": 100,
+  "collateral_episodes": 21,
+  "collateral_events": 26,
+  "total_mutations": 106,
+  "precision": 0.24528301886792453
+ }
+}

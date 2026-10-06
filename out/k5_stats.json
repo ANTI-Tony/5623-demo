@@ -1,0 +1,70 @@
+{
+ "n_paired_tasks": 20,
+ "S1": {
+  "n": 20,
+  "succ_T0": 7,
+  "succ_T3": 12,
+  "pp": 25.0,
+  "b": 5,
+  "c": 0,
+  "mcnemar_exact_two_sided": 0.0625,
+  "boot_ci_pp": [
+   9.999999999999998,
+   45.0
+  ],
+  "discordant_needed_for_p05": 6
+ },
+ "S2": {
+  "coll_T0": 3,
+  "coll_T3": 3,
+  "wilson_T0": [
+   5.236779195949584,
+   36.04232958869574
+  ],
+  "wilson_T3": [
+   5.236779195949584,
+   36.04232958869574
+  ],
+  "b": 2,
+  "c": 2,
+  "mcnemar_exact_two_sided": 1.0
+ },
+ "S3": {
+  "succ_coll": 0,
+  "succ_nocoll": 19,
+  "fail_coll": 6,
+  "fail_nocoll": 15,
+  "fisher_two_sided": 0.021205821205821207,
+  "coll_tasks_T0": [
+   "webarena_verified_240_538_2",
+   "webarena_verified_240_539_2",
+   "webarena_verified_284_498_2"
+  ],
+  "coll_tasks_T3": [
+   "webarena_verified_240_538_2",
+   "webarena_verified_246_775_2",
+   "webarena_verified_246_776_2"
+  ],
+  "overlap": [
+   "webarena_verified_240_538_2"
+  ],
+  "flip_tasks": [
+   "webarena_verified_240_540_2",
+   "webarena_verified_240_541_2",
+   "webarena_verified_284_496_2",
+   "webarena_verified_284_497_2",
+   "webarena_verified_284_498_2"
+  ],
+  "flips_that_were_collateral": [
+   "webarena_verified_284_498_2"
+  ]
+ },
+ "S4": {
+  "calls": 372,
+  "input_tokens": 1867521,
+  "output_tokens": 46413,
+  "cache_read": 0,
+  "cache_write": 0,
+  "caching_active": false
+ }
+}

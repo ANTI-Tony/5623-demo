@@ -1,0 +1,59 @@
+{
+ "n_cells": 18,
+ "n_verbs": 8,
+ "codings": {
+  "C1 rendered warning text": {
+   "kappa_cell": 0.5556,
+   "kappa_verb": 0.5,
+   "table_verb": {
+    "warn_irrev": 2,
+    "warn_rev": 0,
+    "silent_irrev": 2,
+    "silent_rev": 4
+   },
+   "warned_verbs": [
+    "cancel",
+    "delete"
+   ]
+  },
+  "C2 + separate form page": {
+   "kappa_cell": 1.0,
+   "kappa_verb": 1.0,
+   "table_verb": {
+    "warn_irrev": 4,
+    "warn_rev": 0,
+    "silent_irrev": 0,
+    "silent_rev": 4
+   },
+   "warned_verbs": [
+    "cancel",
+    "delete",
+    "invoice",
+    "ship"
+   ]
+  },
+  "C3 + in-page form save": {
+   "kappa_cell": 0.3333,
+   "kappa_verb": 0.25,
+   "table_verb": {
+    "warn_irrev": 4,
+    "warn_rev": 3,
+    "silent_irrev": 0,
+    "silent_rev": 1
+   },
+   "warned_verbs": [
+    "approve",
+    "cancel",
+    "delete",
+    "invoice",
+    "reject",
+    "ship",
+    "unpublish"
+   ]
+  }
+ },
+ "range_cell": [
+  0.3333,
+  1.0
+ ]
+}

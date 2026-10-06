@@ -1,0 +1,29 @@
+{
+ "kappa": 0.5556,
+ "ci": [
+  0.211,
+  0.886
+ ],
+ "n": 18,
+ "table": {
+  "warn_irreversible": 5,
+  "warn_reversible": 0,
+  "silent_irreversible": 4,
+  "silent_reversible": 9
+ },
+ "draws": 20000,
+ "n_verbs": 8,
+ "ci_verb_clustered": [
+  0.0,
+  1.0
+ ],
+ "clustered_share_at_or_below_zero": 8.5,
+ "kappa_excl_review_delete": 0.375,
+ "by_family": {
+  "order": 0.25,
+  "review": 1.0
+ },
+ "classified_events": 34,
+ "min_margin_s": 6.43,
+ "within_5s": 0
+}

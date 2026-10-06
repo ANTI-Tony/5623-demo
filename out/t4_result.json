@@ -1,0 +1,18 @@
+[
+ {
+  "arm": "A_clean",
+  "entries": 869,
+  "mut_action": 1,
+  "collateral": 0,
+  "score": 1.0,
+  "status": "success"
+ },
+ {
+  "arm": "B_collateral",
+  "entries": 1297,
+  "mut_action": 2,
+  "collateral": 1,
+  "score": 1.0,
+  "status": "success"
+ }
+]

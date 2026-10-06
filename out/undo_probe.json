@@ -1,0 +1,45 @@
+[
+ {
+  "cls": "order_hold",
+  "note": "POSITIVE CONTROL: Magento hold an order, then actually take the inverse",
+  "url": "http://localhost:7780/admin/sales/order/view/order_id/302/",
+  "pre_status": "Pending",
+  "post_status": "On Hold",
+  "pre_buttons": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Login as Customer",
+   "Reorder",
+   "Send Email",
+   "Ship",
+   "Submit Comment",
+   "\\ue626 Back"
+  ],
+  "post_buttons": [
+   "Login as Customer",
+   "Send Email",
+   "Submit Comment",
+   "Unhold",
+   "\\ue626 Back"
+  ],
+  "gained": [
+   "Unhold"
+  ],
+  "lost": [
+   "Cancel",
+   "Edit",
+   "Hold",
+   "Invoice",
+   "Reorder",
+   "Ship"
+  ],
+  "inverse_affordance": [
+   "Unhold"
+  ],
+  "undo_status": "Pending",
+  "undo_restored": true,
+  "field_changes": {}
+ }
+]
