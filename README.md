@@ -35,19 +35,23 @@ Scripts are numbered in the order the experiments were run.
 
 ## Setup
 
-Requires Docker and Python 3.12.
+Requires Docker Desktop (running), Python 3.12, git, and about 10 GB of free disk.
+On Windows, run everything inside WSL2. On an Apple-silicon Mac, turn on
+*Settings → General → Use Rosetta for x86_64/amd64 emulation* in Docker Desktop,
+because the site image is `linux/amd64`.
 
 ```bash
+git clone https://github.com/ANTI-Tony/5623-demo.git && cd 5623-demo
 python3.12 -m venv .venv312
 ./.venv312/bin/pip install -r requirements-py312.txt
 ./.venv312/bin/pip install -e .
 ./.venv312/bin/playwright install chromium
+docker pull am1n3e/webarena-verified-shopping_admin     # the Magento admin site, several GB
 ```
 
-The Magento admin site is the WebArena-Verified image
-`am1n3e/webarena-verified-shopping_admin`, served on `localhost:7780`. The scripts
-start and reset it themselves. Agent runs need `ANTHROPIC_API_KEY` in the
-environment; the demo below makes no model calls.
+The scripts start the site container and reset it themselves; it serves on
+`localhost:7780` (control port 7781), so both ports must be free. Agent runs need
+`ANTHROPIC_API_KEY` in the environment; the demo below makes no model calls.
 
 ## Live demo (about 6 minutes)
 
@@ -63,6 +67,24 @@ bash scripts/demo_run.sh
 | 4 | Reversibility probe on three cells: `hold` (positive control, comes back reversible), `cancel` (no inverse offered), `invoice` (the application offers *Credit Memo* as the undo; taken and submitted, it moves the order to a third state, *Closed*, instead of back to *Pending*) |
 | 5 | Re-derive the reported numbers from `out/` |
 
+What a correct run prints:
+
+- step 3 ends with `A_clean : official=1.0 collateral=0` and
+  `B_collateral : official=1.0 collateral=1`;
+- step 4 starts with `[control b1] hold x pending -> reversible=True  OK` and
+  ends with a table in which `invoice x pending` goes `Pending → Processing`,
+  then `Credit Memo + Refund Offline` leaves it `Closed`;
+- step 5 prints `reproduces` or `all values reproduce` for the checking scripts,
+  and the figure and table scripts report what they wrote
+  (`25 measured cells, flips = ['downvote']`).
+
+Lines such as `err='TimeoutError: Locator.click: Timeout'` in steps 3 and 4 are
+expected. Magento's buttons navigate away as they are clicked, so the browser
+driver reports a timeout even though the click landed. The scripts never trust a
+click's return value; every outcome is read back from the page or from the
+captured traffic. If a step fails before any of that, check that Docker Desktop
+is running and that ports 7780 and 7781 are free.
+
 ## Reproducing the numbers without Docker
 
 ```bash
@@ -73,8 +95,9 @@ for s in 31_abstract_headline 33_calibration_and_margin 37_evaluator_field_censu
 done
 ```
 
-Each script prints `reproduces` (or `all values reproduce`) and exits non-zero if
-any value drifts.
+Each script compares what it computes with the reported value and exits non-zero
+if any value drifts; the checking scripts end with `reproduces`, the figure and
+table scripts with the file they wrote.
 
 ## What is not in this repository
 
